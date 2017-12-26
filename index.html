@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="src/garessi-notif.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style type="text/css">
+        .content{
+            text-align: center;            
+            display: block;
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
-    <button data-content="effect top left" data-placement="top-left" id-notif="topleft1">Top left</button>
-    <button data-content="effect top center" data-placement="top-center" id-notif="topcenter1">Top center</button>
-    <button data-content="effect top right" data-placement="top-right" id-notif="topright1">Top right</button>
-    <button data-content="effect bottom left" data-placement="bottom-left" id-notif="bottomleft1">bottom left</button>
-    <button data-content="effect bottom center" data-placement="bottom-center" id-notif="bottomcenter1">bottom center</button>
-    <button data-content="effect bottom right" data-placement="bottom-right" id-notif="bottomright1">bottom right</button>
+    <div class="content">
+        <button data-content="effect top left" data-placement="top-left" id-notif="topleft1">Top left</button>
+        <button data-content="effect top center" data-placement="top-center" id-notif="topcenter1">Top center</button>
+        <button data-content="effect top right" data-placement="top-right" id-notif="topright1">Top right</button>
+        <button data-content="effect bottom left" data-placement="bottom-left" id-notif="bottomleft1">bottom left</button>
+        <button data-content="effect bottom center" data-placement="bottom-center" id-notif="bottomcenter1">bottom center</button>
+        <button data-content="effect bottom right" data-placement="bottom-right" id-notif="bottomright1">bottom right</button>
+    </div>
     
     <script type="text/javascript" src="plugin/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="src/garessi-notif.js"></script>
